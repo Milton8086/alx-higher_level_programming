@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-def print_list_integer(my_list=[]):
-    """a function that prints all integers of a list."""
-    for d in my_list:
-        print("{}".format(d))
+def print_list_integer(_list=[]):
+    for i in _list:
+        print('{:d}'.format(i))
